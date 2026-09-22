@@ -1,0 +1,17 @@
+{
+  "best_model": "Random Forest",
+  "accuracy": 0.4338,
+  "precision": 0.4339,
+  "recall": 0.4338,
+  "f1_score": 0.4337,
+  "roc_auc": "0.6336",
+  "train_size": 43972,
+  "test_size": 10994,
+  "total_records": 54966,
+  "n_features": 13,
+  "target_classes": [
+    "Abnormal",
+    "Inconclusive",
+    "Normal"
+  ]
+}

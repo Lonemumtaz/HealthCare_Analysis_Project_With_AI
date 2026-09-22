@@ -1,0 +1,80 @@
+{
+  "feature_columns": [
+    "Age",
+    "Gender",
+    "Blood Type",
+    "Medical Condition",
+    "Insurance Provider",
+    "Billing Amount",
+    "Room Number",
+    "Admission Type",
+    "Medication",
+    "Length_of_Stay",
+    "Admission_Year",
+    "Admission_Month",
+    "Admission_DayOfWeek"
+  ],
+  "num_features": [
+    "Age",
+    "Billing Amount",
+    "Room Number",
+    "Length_of_Stay"
+  ],
+  "cat_features": [
+    "Gender",
+    "Blood Type",
+    "Medical Condition",
+    "Insurance Provider",
+    "Admission Type",
+    "Medication"
+  ],
+  "target_classes": [
+    "Abnormal",
+    "Inconclusive",
+    "Normal"
+  ],
+  "best_model_name": "Random Forest",
+  "cat_unique_values": {
+    "Gender": [
+      "Female",
+      "Male"
+    ],
+    "Blood Type": [
+      "A+",
+      "A-",
+      "AB+",
+      "AB-",
+      "B+",
+      "B-",
+      "O+",
+      "O-"
+    ],
+    "Medical Condition": [
+      "Arthritis",
+      "Asthma",
+      "Cancer",
+      "Diabetes",
+      "Hypertension",
+      "Obesity"
+    ],
+    "Insurance Provider": [
+      "Aetna",
+      "Blue Cross",
+      "Cigna",
+      "Medicare",
+      "UnitedHealthcare"
+    ],
+    "Admission Type": [
+      "Elective",
+      "Emergency",
+      "Urgent"
+    ],
+    "Medication": [
+      "Aspirin",
+      "Ibuprofen",
+      "Lipitor",
+      "Paracetamol",
+      "Penicillin"
+    ]
+  }
+}

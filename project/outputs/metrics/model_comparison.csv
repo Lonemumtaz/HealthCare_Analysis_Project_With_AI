@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1-Score,ROC-AUC
+Random Forest,0.4338,0.4339,0.4338,0.4337,0.6336
+K-Nearest Neighbors,0.3619,0.3626,0.3619,0.3601,0.5319
+HistGradient Boosting,0.3571,0.3573,0.3571,0.356,0.5268
+Gradient Boosting,0.3358,0.3355,0.3358,0.3343,0.5042
+Logistic Regression,0.3315,0.3318,0.3315,0.3278,0.5004
